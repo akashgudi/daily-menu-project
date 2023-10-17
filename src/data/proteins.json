@@ -1,5 +1,5 @@
 [
-    { "name" : "Chicken","is_protein":true},
-    { "name" : "Paneer","is_protein":true},
-    { "name" : "Egg","is_protein":true}
+    { "name" : "Chicken","is_protein":true,"img":"chicken"},
+    { "name" : "Paneer","is_protein":true,"img":"paneer"},
+    { "name" : "Egg","is_protein":true,"img":"egg"}
 ]

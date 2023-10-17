@@ -1,11 +1,11 @@
 [
-    {"name":"Bhindi","is_protein":false},
-    {"name":"Gobi","is_protein":false},
-    {"name":"Aloo Mutter","is_protein":false},
-    {"name":"Rajma","is_protein":false},
-    {"name":"Channa","is_protein":false},
-    {"name":"Fried Rice","is_protein":false},
-    {"name":"Hakka Noodles","is_protein":false},
-    {"name":"Pasta","is_protein":false},
-    {"name":"Dal Rice","is_protein":false}
+    {"name":"Bhindi","is_protein":false,"img":"bhindi"},
+    {"name":"Gobi","is_protein":false,"img":"gobi"},
+    {"name":"Aloo Mutter","is_protein":false,"img":"aloo_mutter"},
+    {"name":"Rajma","is_protein":false,"img":"rajma"},
+    {"name":"Channa","is_protein":false,"img":"channa"},
+    {"name":"Fried Rice","is_protein":false,"img":"fried_rice"},
+    {"name":"Hakka Noodles","is_protein":false,"img":"noodles"},
+    {"name":"Pasta","is_protein":false,"img":"pasta"},
+    {"name":"Dal Rice","is_protein":false,"img":"dal_rice"}
 ]
