@@ -6,8 +6,6 @@ export const getWeek = (currentDate) => {
     var weekNumber = Math.ceil(days / 7);
 
     // Display the calculated result       
-    console.log("Week number of " + currentDate +
-        " is :   " + weekNumber);
     return weekNumber
 }
 
