@@ -43,7 +43,6 @@ export function shuffle(array,today=new Date()) {
     var dayGrouped = []
     for( let i=0; i < COOK_DAYS_IN_WEEK*2;i+=2)
         dayGrouped.push([array[i],array[i+1]])
-    return array.slice(0, NUM_OF_MEALS_PER_WEEK)
     return dayGrouped
 
 }

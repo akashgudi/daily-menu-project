@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
+import React from 'react'
 //import data
 import proteins from './data/proteins.json'
 import regular from './data/regular.json'
@@ -19,7 +20,13 @@ function App() {
   return (
     <>
       <div>{`WEEK ${getWeek(today)}`}</div>
-      {menu.map((item, idx) => <ItemCard item={item} key={idx} />)}
+      {menu.map((item, idx) => 
+      <React.Fragment key={idx}>
+        Lunch
+        <ItemCard item={item[0]} />
+        Dinner
+        <ItemCard item={item[1]} />
+      </React.Fragment>)}
     </>
   )
 }
