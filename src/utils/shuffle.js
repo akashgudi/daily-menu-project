@@ -4,9 +4,8 @@ import { getWeek } from "./getWeek";
 
 
 
-export function shuffle(array) {
+export function shuffle(array,today=new Date()) {
     // console.clear()
-    var today = new Date('2023-10-25')
     
     var dateString= `${getWeek(today)}${today.getFullYear()}${today.getMonth()}`
     let generate = seedrandom(dateString)

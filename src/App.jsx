@@ -14,17 +14,12 @@ import { getWeek } from './utils/getWeek'
 import { ItemCard } from './components/itemCard/ItemCard'
 
 function App() {
-
+  // const today = new Date('2023-1-31') for overrides
   const [menu, setMenu] = useState(ValidateMenu(shuffle(generateMenu(proteins, regular))))
   
-
-  const shuffleMenu = () => {
-    setMenu(shuffle((generateMenu(proteins, regular))))
-  }
-
   return (
     <>
-      <button onClick={shuffleMenu}>Shuffle</button>
+      
       {menu.map((item, idx) => <ItemCard item={item} key={idx} />)}
     </>
   )
