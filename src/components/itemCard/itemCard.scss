@@ -1,0 +1,13 @@
+.item-card {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+
+    &-subsection {
+        width: 100px;
+        text-align: left;
+        &.is-protein {
+            text-transform: capitalize;
+        }
+    }
+}
