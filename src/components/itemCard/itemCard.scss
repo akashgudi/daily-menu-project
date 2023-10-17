@@ -10,8 +10,9 @@
     gap: 16px;
     justify-content: center;
     .item-photo {
-        background-color: grey;
         aspect-ratio: 1;
+        background-size: cover;
+
     }
     .item-label {
         padding: 16px;

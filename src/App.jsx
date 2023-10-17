@@ -19,7 +19,7 @@ function App() {
   const [menu, setMenu] = useState(ValidateMenu(shuffle(generateMenu(proteins, regular), today)))
   return (
     <div className='app-body'>
-      <div>{`WEEK ${getWeek(today)}`}</div>
+      <div>{`2033 MENU, WEEK ${getWeek(today)}`}</div>
       {menu.map((item, idx) =>
         <React.Fragment key={idx}>
           <DayCard day={idx} item={item} />
