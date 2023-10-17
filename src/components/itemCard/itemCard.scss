@@ -1,13 +1,27 @@
 .item-card {
-    display: flex;
+    margin-bottom:32px;
+    min-width: 250px;
+    max-width: 350px;
+    width: 100%;;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 12px 3px rgba(0,0,0,0.2);
+    // padding: 16px;
     gap: 16px;
     justify-content: center;
-
-    &-subsection {
-        width: 100px;
+    .item-photo {
+        background-color: grey;
+        aspect-ratio: 1;
+    }
+    .item-label {
+        padding: 16px;
         text-align: left;
-        &.is-protein {
-            text-transform: capitalize;
-        }
+    }
+    .meal-label {
+        font-style: italic;
+    }
+    .dish-label {
+        font-size: 1.5rem;
+        font-weight: 600;     
     }
 }
