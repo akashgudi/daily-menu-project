@@ -1,5 +1,5 @@
-import { DAYS_OF_WEEK } from "../../../constants/constants"
-import { ItemCard } from "../ItemCard"
+import { DAYS_OF_WEEK } from "../../constants/constants"
+import { ItemCard } from "../itemCard/ItemCard"
 import './DayCard.scss'
 
 export function DayCard({ item, day }) {

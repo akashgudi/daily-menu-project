@@ -12,7 +12,7 @@ import { ValidateMenu } from './utils/validateMenu'
 import { getWeek } from './utils/getWeek'
 //import components
 import { ItemCard } from './components/itemCard/ItemCard'
-import { DayCard } from './components/itemCard/DayCard/DayCard'
+import { DayCard } from './components/DayCard/DayCard'
 
 function App() {
   const today = new Date()
