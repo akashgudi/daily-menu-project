@@ -16,7 +16,12 @@ import { DayCard } from './components/DayCard/DayCard'
 
 function App() {
   const today = new Date()
+  const time = today.getHours();
+  const isAfternoon = time >= 12
   const [menu, setMenu] = useState(ValidateMenu(shuffle(generateMenu(proteins, regular), today)))
+  useEffect(() => {
+    document.title = isAfternoon ? "What's for Dinner" : "What's for Lunch";
+  })
   return (
     <div className='app-body'>
       <div>{`2033 MENU, WEEK ${getWeek(today)}`}</div>
